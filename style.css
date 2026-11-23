@@ -1,0 +1,61 @@
+@import url(https://fonts.googleapis.com/css?family=Great+Vibes:regular);
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.main_bg {
+	position: relative;
+	width: 100%;
+	min-height: 100dvh;
+	background-image: url(./you.png);
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	background-size: cover;
+	color: #fff;
+	font-family: 'Great Vibes', cursive;
+}
+
+.signature {
+	position: absolute;
+	content: '';
+	bottom: 10px;
+	left: 30px;
+	color: rgb(241, 16, 16);
+
+	font-size: 20px;
+	letter-spacing: 2px;
+}
+
+.scroll {
+	width: auto;
+	height: 900px;
+	overflow-x: auto;
+	scrollbar-color: transparent;
+}
+
+.title {
+	padding-top: 30px;
+	text-align: center;
+	letter-spacing: 5px;
+	font-size: 30px;
+	text-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.name {
+	font-size: 80px;
+	letter-spacing: 10px;
+	text-align: center;
+	text-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.text {
+	padding: 30px;
+
+	font-size: 26px;
+	letter-spacing: 1.5px;
+	text-align: justify;
+	text-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
