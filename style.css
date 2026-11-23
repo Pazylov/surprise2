@@ -9,7 +9,7 @@
 .main_bg {
 	position: relative;
 	width: 100%;
-	min-height: 100dvh;
+	height: 100dvh;
 	background-image: url(./you.png);
 	background-repeat: no-repeat;
 	background-position: 0 0;
@@ -31,7 +31,7 @@
 
 .scroll {
 	width: auto;
-	height: 900px;
+	height: calc(100% - 50px);
 	overflow-x: auto;
 	scrollbar-color: transparent;
 }
